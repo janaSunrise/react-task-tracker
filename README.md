@@ -3,9 +3,7 @@
 
 > A simple to use Task tracker, made with ReactJS framework.
 
-### 🏠 [Homepage](https://github.com/janaSunrise/react-task-tracker)
-
-### ✨ [Demo](https://task-tracker-sj.netlify.app/)
+### ✨ The live [Demo](https://task-tracker-sj.netlify.app/)
 
 ## Install
 
@@ -26,21 +24,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-## Author
-
-👤 **Sunrit Jana**
-
-* Website: https://sunritjana.now.sh
-* Twitter: [@janaSunrise](https://twitter.com/janaSunrise)
-* Github: [@janaSunrise](https://github.com/janaSunrise)
-* LinkedIn: [@SunritJana](https://linkedin.com/in/SunritJana)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/janaSunrise/react-task-tracker/issues). 
 
+## 💬 Get in touch
+
+If you have various suggestions, questions or want to discuss things with our community, join our discord server!
+
+[![Discord](https://discordapp.com/api/guilds/695008516590534758/widget.png?style=shield)](https://discord.gg/cSC5ZZwYGQ)
+
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+We love people's support in growing and improving. Be sure to leave a ⭐️ if you like the project and 
+also be sure to contribute, if you're interested!
+
+## License
+
+[GPL V3](https://github.com/janaSunrise/react-task-tracker/blob/main/LICENSE)
