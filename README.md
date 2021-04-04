@@ -9,6 +9,8 @@
 
 ## Install
 
+To install the dependencies for the project, use this command
+
 ```sh
 npm install
 ```
