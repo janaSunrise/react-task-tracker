@@ -4,18 +4,15 @@ import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 
 function App() {
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      text: "Test 1",
-      day: "Feb 20",
-    },
-    {
-      id: 2,
-      text: "Test 2",
-      day: "Feb 22",
-    },
-  ]);
+  const [tasks, setTasks] = useState([]);
+
+  // Add task
+  const addTask = (task) => {
+    const id = Math.floor(Math.random() * 1000000) + 1
+    const newTask = { id, ...task }
+
+    setTasks([...tasks, newTask])
+  }
 
   // Delete Task
   const deleteTask = (id) => {
@@ -34,7 +31,7 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <AddTask />
+      <AddTask onAdd={addTask} />
 
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
