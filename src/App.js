@@ -3,7 +3,18 @@ import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([
+      {
+          id: 1,
+          text: "Test 1",
+          day: "Feb 20"
+      },
+      {
+        id: 2,
+        text: "Test 2",
+        day: "Feb 22"
+    }
+  ]);
 
   // Delete Task
   const deleteTask = (id) => {
