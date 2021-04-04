@@ -1,19 +1,20 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
+import AddTask from "./components/AddTask";
 
 function App() {
   const [tasks, setTasks] = useState([
-      {
-          id: 1,
-          text: "Test 1",
-          day: "Feb 20"
-      },
-      {
-        id: 2,
-        text: "Test 2",
-        day: "Feb 22"
-    }
+    {
+      id: 1,
+      text: "Test 1",
+      day: "Feb 20",
+    },
+    {
+      id: 2,
+      text: "Test 2",
+      day: "Feb 22",
+    },
   ]);
 
   // Delete Task
@@ -33,6 +34,8 @@ function App() {
   return (
     <div className="container">
       <Header />
+      <AddTask />
+
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
