@@ -8,11 +8,11 @@ function App() {
 
   // Add task
   const addTask = (task) => {
-    const id = Math.floor(Math.random() * 1000000) + 1
-    const newTask = { id, ...task }
+    const id = Math.floor(Math.random() * 1000000) + 1;
+    const newTask = { id, ...task };
 
-    setTasks([...tasks, newTask])
-  }
+    setTasks([...tasks, newTask]);
+  };
 
   // Delete Task
   const deleteTask = (id) => {
