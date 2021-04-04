@@ -1,5 +1,4 @@
 # Welcome to React Task tracker 👋
-[![License: GPL v3](https://img.shields.io/badge/License-GPL v3-yellow.svg)](#)
 [![Twitter: janaSunrise](https://img.shields.io/twitter/follow/janaSunrise.svg?style=social)](https://twitter.com/janaSunrise)
 
 > A simple to use Task tracker, made with ReactJS framework.
