@@ -1,45 +1,46 @@
-# React Task tracker
+# Welcome to React Task tracker 👋
+[![Twitter: janaSunrise](https://img.shields.io/twitter/follow/janaSunrise.svg?style=social)](https://twitter.com/janaSunrise)
 
-A simple to use Task tracker, made with ReactJS framework.
+> A simple to use Task tracker, made with ReactJS framework.
 
-## Available Scripts
+### ✨ The live [Demo](https://task-tracker-sj.netlify.app/)
 
-In the project directory, you can run:
+## Install
 
-### `yarn start`
+To install the dependencies for the project, use this command
 
-Runs the app in the development mode.\
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm start
+```
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `yarn test`
+## 🤝 Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributions, issues and feature requests are welcome!
 
-### `yarn build`
+Feel free to check [issues page](https://github.com/janaSunrise/react-task-tracker/issues). 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💬 Get in touch
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have various suggestions, questions or want to discuss things with our community, join our discord server!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![Discord](https://discordapp.com/api/guilds/695008516590534758/widget.png?style=shield)](https://discord.gg/cSC5ZZwYGQ)
 
-### `yarn eject`
+## Show your support
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We love people's support in growing and improving. Be sure to leave a ⭐️ if you like the project and 
+also be sure to contribute, if you're interested!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
+[GPL V3](https://github.com/janaSunrise/react-task-tracker/blob/main/LICENSE)
