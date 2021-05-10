@@ -40,7 +40,3 @@ If you have various suggestions, questions or want to discuss things with our co
 
 We love people's support in growing and improving. Be sure to leave a ⭐️ if you like the project and 
 also be sure to contribute, if you're interested!
-
-## License
-
-[GPL V3](https://github.com/janaSunrise/react-task-tracker/blob/main/LICENSE)
